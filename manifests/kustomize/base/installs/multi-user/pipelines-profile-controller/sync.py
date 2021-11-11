@@ -302,11 +302,11 @@ def server_factory(visualization_server_image,
                                     "env": [
                                         { 
                                             "name": "MINIO_ACCESS_KEY",
-                                            "value": mlpipeline_minio_access_key
+                                            "value": minio_access_key
                                         },
                                         {
                                             "name": "MINIO_SECRET_KEY",
-                                            "value": mlpipeline_minio_secret_key
+                                            "value": minio_secret_key
                                         }
                                     ],
                                     "resources": {
